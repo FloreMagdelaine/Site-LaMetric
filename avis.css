@@ -1,0 +1,99 @@
+* {
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 5;
+}
+
+.motcle {
+    display: flex; 
+    width: 50%;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-bottom: auto;
+    justify-content: space-around;
+}
+
+.imglogo {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    margin-right: auto; 
+}
+
+.titre {
+    display: flex;
+    width: 60%;
+    margin-left: 40%;
+    margin-right: 22%;
+    margin-top: -10%;
+    text-align: center;
+}
+
+.achat {
+    background-color: rgb(22, 22, 91);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans', Arial;
+}
+
+.achat:hover {
+    background-color: rgb(36, 186, 246);
+    font-weight: bolder
+}
+
+.slogan {
+    color: black;
+    font-size: 30px;
+    font-family: 'Noto Sans', Arial;
+}
+
+
+header.p{
+    color: black;
+    font-size: 5px;
+    text-align: center;
+    font-family: 'Noto Sans', Arial;
+}
+
+body{
+    background-color: white;
+    margin-left: 5%;
+}
+
+.nom {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Noto Sans', Arial;
+}
+
+.Utilisateur_verif {
+    color: rgb(186, 73, 73);
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Noto Sans', Arial;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Noto Sans', Arial;
+}
